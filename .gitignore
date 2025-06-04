@@ -17,6 +17,11 @@ nextjs-webapp/node_modules/
 # next.js
 /.next/
 /out/
+.next/
+node_modules/
+.env.local
+.env
+dist/
 
 # production
 /build
