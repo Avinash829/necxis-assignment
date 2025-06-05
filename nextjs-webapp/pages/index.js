@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import { Container, Typography, Box, Button } from "@mui/material";
 import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged } from "firebase/auth";
 import { app } from "../firebase/config";
-import NavBar from "../components/NavBar";
+
 
 const provider = new GoogleAuthProvider();
 const auth = getAuth(app);
@@ -41,16 +41,7 @@ export default function Home() {
 
   return (
     <>
-      <NavBar
-        user={user}
-        handleLogin={handleLogin}
-        handleLogout={handleLogout}
-        onNavClick={(section) => {
-          if (section === "home") scrollToSection(homeRef);
-          else if (section === "about") scrollToSection(aboutRef);
-          else if (section === "contact") scrollToSection(contactRef);
-        }}
-      />
+
 
       {/* Home Section */}
       <Box
