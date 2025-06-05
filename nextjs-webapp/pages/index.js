@@ -81,7 +81,7 @@ export default function Home() {
         )}
         {!user ? (
           <Button variant="contained" color="primary" onClick={handleLogin}>
-            Sign In with Google
+            Sign UP with Google
           </Button>
         ) : (
           <Button variant="outlined" color="secondary" onClick={handleLogout}>
@@ -90,54 +90,9 @@ export default function Home() {
         )}
       </Box>
 
-      {/* About Section */}
-      <Box
-        ref={aboutRef}
-        sx={{
-          height: "100vh",
-          bgcolor: "#fff",
-          p: 4,
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          textAlign: "center",
-        }}
-      >
-        <Container maxWidth="md">
-          <Typography variant="h4" gutterBottom>
-            About Necxis
-          </Typography>
-          <Typography variant="body1">
-            Necxis is a platform for event engagement that redefines digital interaction. Users participate in interactive, competitive, and creative events, share experiences, and engage in a dynamic digital ecosystem—all while earning rewards for their popular participations.
-          </Typography>
-        </Container>
-      </Box>
+      
 
-      {/* Contact Section */}
-      <Box
-        ref={contactRef}
-        sx={{
-          height: "100vh",
-          bgcolor: "#f0f2f5",
-          p: 4,
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          textAlign: "center",
-        }}
-      >
-        <Container maxWidth="md">
-          <Typography variant="h4" gutterBottom>
-            Contact Us
-          </Typography>
-          <Typography variant="body1">
-            For inquiries and support, please email us at{" "}
-            <a href="mailto:teamnecxis@gmail.com">teamnecxis@gmail.com</a>.
-          </Typography>
-        </Container>
-      </Box>
+      
     </>
   );
 }

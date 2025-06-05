@@ -19,12 +19,7 @@ export default function NavBar({ user, handleLogin, handleLogout, onNavClick }) 
           <Button color="inherit" onClick={() => onNavClick && onNavClick("home")}>
             Home
           </Button>
-          <Button color="inherit" onClick={() => onNavClick && onNavClick("about")}>
-            About
-          </Button>
-          <Button color="inherit" onClick={() => onNavClick && onNavClick("contact")}>
-            Contact
-          </Button>
+          
         </Box>
 
         
