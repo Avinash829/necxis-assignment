@@ -55,3 +55,6 @@ expo-app/.expo-shared/
 # Next.js
 nextjs-webapp/node_modules/
 nextjs-webapp/.next/
+
+
+**/google-services.json
