@@ -1,6 +1,6 @@
-// expo-app/app/(tabs)/index.tsx
+
 import React from 'react';
-import App from '../../App';  // Import App component relative to this file
+import App from '../../App';  
 import messaging from '@react-native-firebase/messaging';
 
 messaging().setBackgroundMessageHandler(async remoteMessage => {

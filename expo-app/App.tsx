@@ -1,4 +1,4 @@
-// expo-app/App.tsx
+
 import React, { useEffect } from 'react';
 import { Alert, View, StyleSheet } from 'react-native';
 import messaging from '@react-native-firebase/messaging';
@@ -7,7 +7,7 @@ import { WebView } from 'react-native-webview';
 
 const App = () => {
   useEffect(() => {
-    // Request permission for notifications
+    
     messaging()
       .requestPermission()
       .then(authStatus => {
@@ -18,17 +18,15 @@ const App = () => {
         if (enabled) {
           console.log('Authorization status:', authStatus);
 
-          // Get FCM token
           messaging()
             .getToken()
             .then(token => {
               console.log('FCM Token:', token);
-              // TODO: Send token to backend if needed
+              
             });
         }
       });
 
-    // Foreground message handler
     const unsubscribe = messaging().onMessage(async remoteMessage => {
       Alert.alert('New Notification', JSON.stringify(remoteMessage.notification));
     });

@@ -45,3 +45,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# Expo
+expo-app/node_modules/
+expo-app/.expo/
+expo-app/.expo-shared/
+
+# Next.js
+nextjs-webapp/node_modules/
+nextjs-webapp/.next/
