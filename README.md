@@ -1,4 +1,4 @@
-**Necxis Assignment - Frontend Developer Intern**
+# Necxis Assignment - Frontend Developer Intern
 
 Project Overview:
 -----------------
