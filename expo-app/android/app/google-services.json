@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1072491245530",
+    "project_id": "codeinterviewpro-c728f",
+    "storage_bucket": "codeinterviewpro-c728f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072491245530:android:d737976469161e681c1ae3",
+        "android_client_info": {
+          "package_name": "com.avinashnecxis.expoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072491245530-5v3p4qevr6iknp62ibgpb0nr0p7a6ai2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTa8mxurvDBXAWj9aJZ2dxfN2RxEXxpxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072491245530-5v3p4qevr6iknp62ibgpb0nr0p7a6ai2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
