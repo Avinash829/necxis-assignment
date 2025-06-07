@@ -1,6 +1,6 @@
 **Necxis Assignment - Frontend Developer Intern**
 
-###Project Overview:
+Project Overview:
 -----------------
 This project contains two parts:
 
@@ -15,7 +15,7 @@ This project contains two parts:
 - Implements native Firebase Cloud Messaging (FCM) for push notifications.
 - Custom native FCM integration used instead of Expo's notification service.
 
-###How to Run and Test:
+How to Run and Test:
 --------------------
 Next.js Web App:
 1. Clone the repository.
@@ -32,7 +32,7 @@ Expo Android App:
 5. Run 'npx expo start' and scan the QR code with your Android device.
 6. Push notifications are handled via native Firebase Cloud Messaging.
 
-###Additional Notes:
+Additional Notes:
 -----------------
 - Do not use Expo's direct notification service; native FCM integration is implemented as per assignment requirements.
 - Make sure to configure Firebase with your own project credentials for both apps.
